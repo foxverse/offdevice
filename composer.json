@@ -1,0 +1,7 @@
+{
+    "require": {
+        "twig/twig": "^2.4",
+        "twig/extensions": "^1.5",
+        "symfony/translation": "^3.3"
+    }
+}
