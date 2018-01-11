@@ -1,4 +1,3 @@
 RewriteEngine On
-RewriteBase /
-
-RewriteRule ^v1/endpoint endpoint-handler.php
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
