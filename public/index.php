@@ -1,26 +1,26 @@
-<?php
-/*
- * This file is part of foxverse
- * Copyright (C) 2017 Steph Lockhomes, Billy Humphreys
- * 
- * This program is free software: you can redistribute it and/or modify
- * it under the terms of the GNU Affero General Public License as
- * published by the Free Software Foundation, either version 3 of the
- * License, or (at your option) any later version.
- * 
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU Affero General Public License for more details.
- * 
- * You should have received a copy of the GNU Affero General Public License
- * along with this program.  If not, see <https://www.gnu.org/licenses/>.
- */
+<!doctype html>
 
-require_once("../lib/Core.php");
-session_start();
+<html lang="en">
+<head>
+  <meta charset="utf-8">
 
-$core = new Core();
-$twig = $core->initTwig();
+  <title>foxverse Setup Guide</title>
+  <meta name="description" content="foxverse Setup Guide">
+  <meta name="author" content="ninjafox">
 
-echo $twig->render("default.twig");
+  <link rel="stylesheet" href="style.css">
+
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+  <div class="content">
+    <h1>foxverse Setup Guide</h1>
+    <p>Select your Console:</p>
+    <a href="/3ds_guide.html">3DS</a><br>
+    <s>Wii U</s> (Not Available)
+  </div>
+</body>
+</html>
